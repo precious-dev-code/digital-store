@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,39 +16,61 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Precious VA Services</h1>
-        <p>Virtual Assistant | Customer Service | Admin Support</p>
-    </header>
+<header style="background: linear-gradient(90deg,#ff69b4,#ff1493); padding:30px; text-align:center;">
+    <h1 style="color:white; margin:0; font-size:38px;">
+        Precious VA & Digital Store
+    </h1>
+
+    <p style="color:white; font-size:18px; margin-top:8px;">
+        Reliable • Professional • Committed to Excellent Service
+    </p>
+
+    <button onclick="welcomeMessage()" 
+    style="margin-top:15px; padding:12px 20px; border:none; border-radius:8px; background:white; color:#ff1493; font-weight:bold; cursor:pointer;">
+        Welcome Message
+    </button>
+</header>
 
     <section>
         <h2>Hire Me</h2>
-        <button onclick="window.open('https://wa.me/27658210147', '_blank')">Contact on WhatsApp</button>
+        <button onclick="window.open('https://wa.me/27658210147', '_blank')" style="background-color:#25D366;
+        color:white; padding:12px 20px;
+        border:none; border-radius:8px;
+        cursor:pointer; font-weight:bold;">
+        Contact on WhatsApp</button>
     </section>
-
-    <section>
-        <h2>Digital Products</h2>
+    
+<section>
+    <h2>Digital Products</h2>
+    <div class="products">
 
         <div class="product">
             <h3>Email Templates Pack</h3>
-            <img src="https://i.postimg.cc/KjqLvNNQ/email-templates-jpg.jpg" alt="Email Templates">
+            <img src="https://raw.githubusercontent.com/precious-dev-code/digital-store/main/email-templates-jpg.jpg" alt="Email Templates">
             <p>10 ready-to-use email templates for professional clients.</p>
             <button onclick="window.location.href='https://www.paypal.com/buy?product1'">Buy Now - $10</button>
         </div>
 
         <div class="product">
             <h3>Social Media Guide</h3>
-            <img src="https://i.postimg.cc/pLG8Hxkv/social-media-guide-jpg.jpg" alt="Social Media Guide">
+            <img src="https://raw.githubusercontent.com/precious-dev-code/digital-store/main/social-media-guide.jpg.jpg" alt="Social Media Guide">
             <p>Step-by-step guide for posting engaging social media content.</p>
             <button onclick="window.location.href='https://www.paypal.com/buy?product2'">Buy Now - $15</button>
         </div>
 
         <div class="product">
             <h3>Business Spreadsheet Templates</h3>
-            <img src="https://i.postimg.cc/RFCjn7f2/spreadsheet-templates-jpg.jpg" alt="Spreadsheet Templates">
+            <img src="https://raw.githubusercontent.com/precious-dev-code/digital-store/main/spreadsheet-templates.jpg.jpg" alt="Spreadsheet Templates">
             <p>Organize your business finances and tasks with ready-made spreadsheets.</p>
             <button onclick="window.location.href='https://www.paypal.com/buy?product3'">Buy Now - $8</button>
         </div>
-    </section>
+
+    </div>
+</section> 
+    <script>
+        function welcomeMessage() {
+            alert("Welcome to Precious's Services! We are reliable, proffessional, and ready to support your business.");
+        }
+        </script>
 </body>
 </html>
